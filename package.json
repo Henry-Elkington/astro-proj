@@ -1,0 +1,22 @@
+{
+  "name": "php-clone",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "migrate": "pnpm drizzle-kit generate:pg"
+  },
+  "dependencies": {
+    "@astrojs/node": "^5.2.0",
+    "astro": "^2.6.2",
+    "drizzle-orm": "^0.26.5",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.18.1"
+  }
+}
